@@ -13,8 +13,8 @@ setmapn('<Space>k', '<C-W>k<CR>')
 setmapn('<Space>l', '<C-W>l<CR>')
 
 -- Tab switching
-setmapn('<TAB>', ':tabn')
-setmapn('<S-TAB>', ':tabp')
+setmapn('<TAB>', ':tabn<CR>')
+setmapn('<S-TAB>', ':tabp<CR>')
 
 -- Tool windows
 setmapn('<Space>z', ':NvimTreeToggle<CR>')
